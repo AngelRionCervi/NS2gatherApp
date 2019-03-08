@@ -1,0 +1,300 @@
+html, body {
+	height: 100%;
+}
+
+#side-menu {
+	margin-top: 1em;
+}
+
+.font-italic {
+	font-style: italic;
+}
+
+/*Chat*/
+
+.wordwrap { 
+	white-space: pre-wrap;      /* CSS3 */   
+	white-space: -moz-pre-wrap; /* Firefox */    
+	white-space: -pre-wrap;     /* Opera <7 */   
+	white-space: -o-pre-wrap;   /* Opera 7 */    
+	word-wrap: break-word;      /* IE */
+}
+
+.chat-avatar {
+	border-radius: 50%;
+	max-height: 20px;
+	max-width: 20px;
+	margin-right: 5px;
+}
+
+.chat-container {
+	padding: 10px;
+}
+
+#chatmessages {
+	height: 480px;
+	overflow-y: scroll;
+	padding-right: 20px;
+}
+
+.chat-message {
+	list-style-type: none;
+}
+
+#message-input {
+	border: 1px solid #367fa9 !important;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.signin {
+	margin: 0px 10px;
+}
+
+.admin-panel {
+	margin: 10px 10px;
+}
+
+.imgur-container {
+	text-align: center;
+	margin: 5px 0;
+}
+
+.imgur-chat {
+	max-height: 280px;
+	max-width: 80%;
+}
+
+/*Splash Page*/
+
+.join-hero {
+	padding: 80px 0px;
+}
+
+.jumbo-auth {
+	margin-top: 30px;
+}
+
+.jumbo-img {
+	max-height: 150px;
+}
+
+.spinner {
+	max-height: 30px !important;
+}
+
+/*Gather Styles*/
+
+.vote-button {
+	min-width: 60px;
+}
+
+.team-label {
+	min-width: 70px;
+	display: inline-block;
+}
+
+.label-padding {
+	padding: 5px 0;
+}
+
+.lifeform-icon {
+	width: 20px;
+	margin: 0 3px;
+}
+
+.gather-voting {
+	font-size: 90%;
+}
+
+.progress-bar {
+	min-width: 6em;
+}
+
+#gatherers-panel > .panel {
+	margin-bottom: 1px;
+}
+
+.gather-actions {
+	margin-top: 0.5em;
+}
+
+.gatherer {
+	margin-bottom: 5px;
+	padding: 0px;
+}
+
+.gatherer-panel {
+	box-shadow: none;
+}
+
+.panel-alien {
+    border-color: #186845;
+}
+.panel-alien>.panel-heading {
+    color: #B7DCCC;
+    background-color: #569F80;
+    border-color: #186845;
+}
+.panel-alien>.panel-heading+.panel-collapse .panel-body {
+    border-top-color: #186845;
+}
+.panel-alien>.panel-footer+.panel-collapse .panel-body {
+    border-bottom-color: #186845;
+}
+.label-alien {
+	color: #B7DCCC;
+  background-color: #186845;
+}
+
+.panel-marine {
+    border-color: #1B4362;
+}
+.panel-marine>.panel-heading {
+    color: #B6C9D7;
+    background-color: #557995;
+    border-color: #1B4362;
+}
+.panel-marine>.panel-heading+.panel-collapse .panel-body {
+    border-top-color: #1B4362;
+}
+.panel-marine>.panel-footer+.panel-collapse .panel-body {
+    border-bottom-color: #1B4362;
+}
+.label-marine {
+	color: #B7C6D8;
+  background-color: #1B4362;
+}
+
+/*Utility Styles*/
+
+.add-left {
+	margin-left: 0.5em;
+}
+
+.add-right {
+	margin-right: 0.5em;
+}
+
+.max-width {
+	width: 100%;
+}
+
+.add-top {
+	margin-top: 0.5em;
+}
+
+.add-bottom {
+	margin-bottom: 0.5em;
+}
+
+.no-bottom {
+	margin-bottom: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.headline {
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #CFCFCF;
+	margin-bottom: 20px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.panel-light-background {
+	background-color: #d9edf7;
+}
+
+/* Sound */
+
+.volume-slide {
+	padding: 0 15px;
+}
+
+.music-select {
+	padding: 0 15px;
+}
+
+.sound-menu {
+	list-style: none;
+	padding: 5px;
+}
+
+.sound-menu li {
+	padding: 5px;
+}
+
+/* Events */
+
+.events-panel {
+	max-height: 150px;
+	background-color: #002b36;
+	border: 1px solid transparent;
+	color: #839496;
+	border-color: #428bca;
+	border-radius: 4px;
+}
+
+/* Fix for solarize theme */
+
+.badge {
+	color: #fff;
+}
+
+.gather-voting {
+	color: #fff !important;	
+}
+
+/* Users Menu */
+
+.sidebar-collapse .users-list-group {
+	display: none;
+}
+
+.users-list-group {
+  padding: 10px 0;
+  max-height: 300px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.users-list-group-item {
+  position: relative;
+  display: block;
+  padding: 5px 15px 0px 15px;
+  margin-bottom: -1px;
+}
+.users-list-group-item:first-child {
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.users-list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+/* News */
+
+.news-menu {
+	list-style: none;
+	padding: 5px;
+}
+
+.news-menu li {
+	padding: 5px;
+}
+
+.news-menu .unread {
+	font-weight: bold;
+}
+
+.borderless td, .borderless th {
+  border: none !important;
+}

@@ -1,0 +1,25 @@
+<div style="min-height: 750px;">
+	<div class="container-fluid">
+		<div class="row" id="authenticating">
+			<div class="col-lg-6 col-lg-offset-3">
+				<div class="jumbotron jumbo-auth text-center">
+					<div>
+						<img src="/ensl_logo.png" class="jumbo-img" alt="ENSL Logo" />
+					</div>
+					<br />
+					<h3>Can't find the page you're looking for (404)</h3>
+					<br />
+					<h3><span id="admin">Prommah</span> lost it!</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+var admins = ["Yaluzan", "Lome", "Lambo", "Prommah", "Vindaloo"];
+$("#admin").html(function () {
+	var i = Math.floor(Math.random() * admins.length);
+	return admins[i];
+}());
+</script>

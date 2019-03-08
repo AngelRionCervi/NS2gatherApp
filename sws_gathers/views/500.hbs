@@ -1,0 +1,27 @@
+<div id="wrapper" style="min-height: 750px;">
+	<div class="container-fluid">
+		<div class="row" id="authenticating">
+			<div class="col-lg-6 col-lg-offset-3">
+				<div class="jumbotron jumbo-auth text-center">
+					<div>
+						<img src="/ensl_logo.png" class="jumbo-img" alt="ENSL Logo" />
+					</div>
+					<br />
+					<h3>Something went wrong )-: (Server Error)</h3>
+					<br />
+					<h3>It's <span id="admin">Prommah</span>'s fault!</h3>
+					<br />
+					<h3>If the gathers app is broken, you can use the old gathers app at <a href="https://www.ensl.org/gather">ensl.org/gather</a></h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+var admins = ["Yaluzan", "Lome", "Lambo", "Prommah", "Vindaloo"];
+$("#admin").html(function () {
+	var i = Math.floor(Math.random() * admins.length);
+	return admins[i];
+}());
+</script>
